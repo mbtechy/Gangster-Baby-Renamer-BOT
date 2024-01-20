@@ -39,22 +39,22 @@ async def start(client, message):
         await db.add_user(user.id)             
     txt=f"👋 Hello Developer {user.mention} \n\nI am an Advance file Renamer and file Converter BOT with permanent and custom thumbnail support.\n\nSend me any video or document !"
     button=InlineKeyboardMarkup([[
-        InlineKeyboardButton("😈 Developer 😈", callback_data='dev')
+        InlineKeyboardButton("😈 Developer 😈", callback_data='vik')
         ],[
-        InlineKeyboardButton('📢 Updates', url='https://t.me/LazyDeveloper'),
-        InlineKeyboardButton('🤝 Support', url='https://t.me/LazyPrincessSupport')
+        InlineKeyboardButton('📢 Updates', url='https://t.me/+ofBk0CahnBszN2U1'),
+        InlineKeyboardButton('🤝 Support', url='https://t.me/+ofBk0CahnBszN2U1')
         ],[
         InlineKeyboardButton('⚡️ About', callback_data='about'),
         InlineKeyboardButton('🤕 Help', callback_data='help')
         ],[
-        InlineKeyboardButton("🙋🏻 How to make this BOT ? ", url='https://www.youtube.com/channel/UCY-iDra0x2hdd9PdHKcZkRw')
+        InlineKeyboardButton("🙋🏻 How to make this BOT ? ", url='https://t.me/+ofBk0CahnBszN2U1')
         ],[
-        InlineKeyboardButton("🎬 Join Our Movie Channel !", url='https://t.me/+WwDm2ByFlz80YTY9')
+        InlineKeyboardButton("🎬 Official Movie Channel !", url='https://t.me/+ofBk0CahnBszN2U1')
         ],[
-        InlineKeyboardButton("❤️ Subscribe YT ❤️", url='https://www.youtube.com/channel/UCY-iDra0x2hdd9PdHKcZkRw')
+        InlineKeyboardButton("❤️ Subscribe ❤️", url='https://t.me/+ofBk0CahnBszN2U1')
         ],[
-        InlineKeyboardButton("📝Admin-TG", url='https://t.me/mRiderDM'),
-        InlineKeyboardButton("📝Admin-Insta", url='https://instagram.com/LazyDeveloperrr')
+        InlineKeyboardButton("📝Admin-TG", url='https://t.me/vs_rock'),
+        InlineKeyboardButton("📝Admin-TG", url='https://t.me/master_champ')
         ]
         ])
     if START_PIC:
